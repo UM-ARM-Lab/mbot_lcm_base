@@ -1,0 +1,13 @@
+package mbot_lcm_msgs;
+
+struct motion_command_t
+{
+    int64_t utime;
+    double ax;
+    double az;
+    double duration;
+    string test_name;
+}
+
+
+

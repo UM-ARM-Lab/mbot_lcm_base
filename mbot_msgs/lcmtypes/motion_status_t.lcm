@@ -1,0 +1,13 @@
+package mbot_lcm_msgs;
+
+struct motion_status_t
+{
+    int64_t utime;
+    string motion_type;
+    string motion_info;
+    string segment_id;
+}
+
+
+
+
